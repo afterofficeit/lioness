@@ -16,7 +16,7 @@ var cons = require('consolidate');
 
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 80);
 app.set('views', path.join(__dirname, 'views'));
 // .hbs files should be handled by `handlebars`
 // `consolidate` takes care of loading `handlebars` and interfacing it with Express
